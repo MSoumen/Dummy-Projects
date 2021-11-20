@@ -4,6 +4,7 @@ import java.awt.event.*;
 import java.util.Arrays;
 /**
 * This Program is buit using the concept of MouseListener class. Microsoft Logo is a used here for reference
+* The logo is under certification of Microsoft LLC. 
 */
 
 public class MSAnimation extends JFrame {
@@ -63,10 +64,6 @@ class MSlogo extends JPanel implements ActionListener,MouseListener {
 	}
 
 	public void actionPerformed(ActionEvent e){
-		// frameCounter++;
-		// System.out.print("Frame "+frameCounter+"\n");
-		// System.out.print(""+redW+" "+redH+" --- "+greenX+" "+greenH+"\n"
-		// 	+yellowX+" "+yellowY+" --- "+blueY+" "+blueW+"\n\n");
 	
 		if(mouseEntered && redW>=0){
 			redW-=1; redH-=1;
